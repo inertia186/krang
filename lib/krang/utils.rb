@@ -44,12 +44,17 @@ module Krang
       end
       
       if log_level >= (LOGGING_LEVELS[mode] || 4)
-        case mode
-        when :INF then logger.info msg
-        when :WRN then logger.warn msg
-        when :ERR then logger.error msg
-        when :DBG then logger.debug msg
-        else; logger.debug msg
+        if logger.nil?
+          # Using `warn` instead of `warning` to do low level warning.
+          warn 'Warning: logger is nil (bad config?)'
+        else
+          case mode
+          when :INF then logger.info msg
+          when :WRN then logger.warn msg
+          when :ERR then logger.error msg
+          when :DBG then logger.debug msg
+          else; logger.debug msg
+          end
         end
         
         semaphore.synchronize do
