@@ -6,6 +6,9 @@ require 'awesome_print'
 Bundler.require
 
 module Krang
-  require 'krang/version'
   require 'krang/chain'
+  
+  include Chain
+  
+  extend self
 end

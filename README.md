@@ -30,6 +30,11 @@ gem 'krang'
 In your app, create a class:
 
 ```ruby
+require 'rubygems'
+require 'bundler/setup'
+
+Bundler.require
+
 class MyBot
   include Krang
   
