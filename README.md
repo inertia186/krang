@@ -35,11 +35,15 @@ require 'bundler/setup'
 
 Bundler.require
 
-class MyBot
+module MyBot
   include Krang
+  
+  extend self
   
   app_key :my_bot
 end
+
+puts MyBot.find_comment('inertia', 'macintosh-napintosh')
 ```
 
 ##### Configure

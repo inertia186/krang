@@ -1,6 +1,6 @@
 require 'radiator'
 require 'awesome_print'
-# require 'yaml'
+require 'yaml'
 # require 'pry'
 
 Bundler.require
