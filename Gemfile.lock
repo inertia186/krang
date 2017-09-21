@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    krang (0.0.1rc4)
+    krang (0.0.1rc5)
       awesome_print (~> 1.8, >= 1.8.0)
       radiator (~> 0.2, >= 0.2.2rc2)
 
