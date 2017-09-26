@@ -33,6 +33,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry', '~> 0.10', '>= 0.10.4'
   spec.add_development_dependency 'delorean', '~> 2.1', '>= 2.1.0'
 
-  spec.add_dependency 'radiator', '~> 0.2', '>= 0.2.2rc2'
+  spec.add_dependency 'radiator', '~> 0.2', '>= 0.2.3a'
   spec.add_dependency 'awesome_print', '~> 1.8', '>= 1.8.0'
 end
