@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    krang (0.0.1rc8)
+    krang (0.0.1rc9)
       awesome_print (~> 1.8, >= 1.8.0)
-      radiator (~> 0.2, >= 0.2.3a)
+      radiator (~> 0.2, >= 0.2.3b)
 
 GEM
   remote: https://rubygems.org/
