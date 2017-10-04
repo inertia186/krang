@@ -26,13 +26,13 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'vcr', '~> 3.0', '>= 3.0.3'
   spec.add_development_dependency 'faraday', '~> 0.12', '>= 0.12.1'
   spec.add_development_dependency 'typhoeus', '~> 1.1', '>= 1.1.2'
-  spec.add_development_dependency 'simplecov', '~> 0.10', '>= 0.10.1'
+  spec.add_development_dependency 'simplecov', '~> 0.15', '>= 0.15.1'
   spec.add_development_dependency 'codeclimate-test-reporter', '~> 0.5.2'
   spec.add_development_dependency 'yard', '~> 0.9', '>= 0.9.9'
   spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
   spec.add_development_dependency 'pry', '~> 0.10', '>= 0.10.4'
   spec.add_development_dependency 'delorean', '~> 2.1', '>= 2.1.0'
 
-  spec.add_dependency 'radiator', '~> 0.2', '>= 0.2.3b'
+  spec.add_dependency 'radiator', '0.3.0dev5'
   spec.add_dependency 'awesome_print', '~> 1.8', '>= 1.8.0'
 end

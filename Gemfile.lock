@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    krang (0.0.1rc9)
+    krang (0.0.1rc10)
       awesome_print (~> 1.8, >= 1.8.0)
-      radiator (~> 0.2, >= 0.2.3b)
+      radiator (= 0.3.0dev5)
 
 GEM
   remote: https://rubygems.org/
@@ -29,12 +29,12 @@ GEM
     ffi (1.9.18)
     hashdiff (0.3.6)
     hashie (3.5.6)
-    json (1.8.6)
+    json (2.1.0)
     little-plugger (1.1.4)
     logging (2.2.2)
       little-plugger (~> 1.1)
       multi_json (~> 1.10)
-    method_source (0.8.2)
+    method_source (0.9.0)
     minitest (5.10.3)
     minitest-line (0.6.4)
       minitest (~> 5.0)
@@ -43,15 +43,15 @@ GEM
     multi_json (1.12.2)
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
-    pry (0.11.0)
+    pry (0.11.1)
       coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
+      method_source (~> 0.9.0)
     public_suffix (3.0.0)
-    radiator (0.2.3b)
+    radiator (0.3.0dev5)
       bitcoin-ruby (= 0.0.11)
       ffi (= 1.9.18)
       hashie (~> 3.5, >= 3.5.5)
-      json (~> 1.8, >= 1.8.6)
+      json (~> 2.0, >= 2.0.2)
       logging (~> 2.2, >= 2.2.0)
       net-http-persistent (~> 2.9, >= 2.9.4)
     rake (12.1.0)
@@ -85,11 +85,11 @@ DEPENDENCIES
   minitest-proveit (~> 1.0, >= 1.0.0)
   pry (~> 0.10, >= 0.10.4)
   rake (~> 12.0, >= 12.0.0)
-  simplecov (~> 0.10, >= 0.10.1)
+  simplecov (~> 0.15, >= 0.15.1)
   typhoeus (~> 1.1, >= 1.1.2)
   vcr (~> 3.0, >= 3.0.3)
   webmock (~> 3.0, >= 3.0.1)
   yard (~> 0.9, >= 0.9.9)
 
 BUNDLED WITH
-   1.14.6
+   1.15.4
