@@ -61,6 +61,12 @@ Edit the `config.yml` file.
 
 ---
 
+## Projects Using Krang ...
+
+* Freakazoid
+* Catfacts
+* Dr. Otto
+
 ## Tests
 
 * Clone the client repository into a directory of your choice:
