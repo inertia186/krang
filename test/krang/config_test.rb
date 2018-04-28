@@ -16,5 +16,9 @@ module Krang
         }
       )
     end
+    
+    def test_noop
+      assert true
+    end
   end
 end

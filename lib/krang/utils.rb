@@ -63,11 +63,11 @@ module Krang
       end
     end
     
-    def trace(msg, detail = nil); console(:TRC, msg, detail); end
-    def debug(msg, detail = nil); console(:DBG, msg, detail); end
-    def info(msg, detail = nil); console(:INF, msg, detail); end
-    def warning(msg, detail = nil); console(:WRN, msg, detail); end
-    def error(msg, detail = nil); console(:ERR, msg, detail); end
+    def krang_trace(msg, detail = nil); console(:TRC, msg, detail); end
+    def krang_debug(msg, detail = nil); console(:DBG, msg, detail); end
+    def krang_info(msg, detail = nil); console(:INF, msg, detail); end
+    def krang_warning(msg, detail = nil); console(:WRN, msg, detail); end
+    def krang_error(msg, detail = nil); console(:ERR, msg, detail); end
     
     def parse_slug(slug)
       slug = slug.downcase.split('@').last

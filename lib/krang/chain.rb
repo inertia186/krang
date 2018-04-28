@@ -26,7 +26,7 @@ module Krang
           yield @api
           break
         rescue => e
-          warning "API exception, retrying (#{e})", e
+          krang_warning "API exception, retrying (#{e})", e
           reset_api
           sleep backoff
           redo
@@ -64,7 +64,7 @@ module Krang
       with_api { |api| response = api.get_content(author, permlink) }
       comment = response.result
       
-      trace comment
+      krang_trace comment
       
       comment unless comment.id ==  0
     end

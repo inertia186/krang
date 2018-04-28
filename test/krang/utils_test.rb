@@ -23,28 +23,28 @@ module Krang
       end
     end
     
-    def test_trace
-      assert_nil trace "trace"
+    def test_krang_trace
+      assert_nil krang_trace "trace"
     end
     
-    def test_debug
-      assert_nil debug "debug"
+    def test_krang_debug
+      assert_nil krang_debug "debug"
     end
     
-    def test_info
-      assert_nil info "info"
+    def test_krang_info
+      assert_nil krang_info "info"
     end
     
-    def test_info_detail
-      assert_nil info("info", Exception.new)
+    def test_krang_info_detail
+      assert_nil krang_info("info", Exception.new)
     end
     
-    def test_warning
-      assert_nil warning "warning"
+    def test_krang_warning
+      assert_nil krang_warning "warning"
     end
     
-    def test_error
-      assert_nil error "error"
+    def test_krang_error
+      assert_nil krang_error "error"
     end
     
     def test_unknown_type
